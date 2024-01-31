@@ -1,4 +1,4 @@
-# Build stage
+# Build stage 
 FROM maven:3.8.2-jdk-17 AS build
 COPY . /app
 WORKDIR /app
